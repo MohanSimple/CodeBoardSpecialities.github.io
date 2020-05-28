@@ -9,5 +9,4 @@ public class CodeBoardSpecialitiesApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(CodeBoardSpecialitiesApplication.class, args);
 	}
-
 }
