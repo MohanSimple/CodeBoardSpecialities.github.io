@@ -1,0 +1,20 @@
+<table border="1" >
+    <thead align="center">
+      <tr>
+    <th>Image</th>
+    <th>Id</th>
+    <th>Name</th>
+    <th>Is Deleted</th>
+  </tr>
+  </thead>
+  <tbody align="center">
+    <tr *ngFor="let pat of patients">
+      <td>
+        <img src="http://placehold.it/200x300" height="60" alt="">
+      </td>
+      <td>{{pat.id}}</td>
+      <td>{{pat.name}}</td>
+      <td>{{pat.isDeleted}}</td>
+    </tr>
+  </tbody>
+  </table> 
